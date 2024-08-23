@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 
 import { program } from "commander";
-import promptAppName from "../lib/prompts";
-import { createApp } from "../lib/actions";
+import { promptAppName } from "../lib/prompts.js";
+import { createApp } from "../lib/actions.js";
 
 program.version("1.0.0").description("CLI Tool for Express.js");
 
